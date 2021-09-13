@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aaa"
+        android:orderInCategory="3"
+        android:title="科学计算器">
+    </item>
+    <item
+        android:id="@+id/bbb"
+        android:orderInCategory="3"
+        android:title="进制计算器">
+    </item>
+    <item
+        android:id="@+id/ccc"
+        android:orderInCategory="3"
+        android:title="单位换算计算器">
+    </item>
+
+</menu>

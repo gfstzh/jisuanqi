@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:gravity="bottom"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/houtui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/deng"
+        android:layout_width="200dp"
+        android:layout_height="340dp"
+        android:text="="
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/houtui"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="后退"
+        android:textSize="70sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/jia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/chu"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="/"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/ba"
+        app:layout_constraintEnd_toStartOf="@+id/cheng"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/qingchu"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="清除"
+        android:textSize="70sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/qi"
+        app:layout_constraintEnd_toStartOf="@+id/chu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/cheng"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="*"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/jiu"
+        app:layout_constraintEnd_toStartOf="@+id/houtui"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/jia"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="+"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/jian"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/ba"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="8"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/wu"
+        app:layout_constraintEnd_toStartOf="@+id/jiu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/jiu"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="9"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/liu"
+        app:layout_constraintEnd_toStartOf="@+id/jia"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/qi"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="7"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/si"
+        app:layout_constraintEnd_toStartOf="@+id/ba"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/jian"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="-"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/deng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/wu"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="5"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/er"
+        app:layout_constraintEnd_toStartOf="@+id/liu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/liu"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="6"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/san"
+        app:layout_constraintEnd_toStartOf="@+id/jian"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/si"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="4"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/yi"
+        app:layout_constraintEnd_toStartOf="@+id/wu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/san"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="3"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/dian"
+        app:layout_constraintEnd_toStartOf="@+id/deng"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/yi"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="1"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/baifenzhi"
+        app:layout_constraintEnd_toStartOf="@+id/er"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/er"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="2"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/ling"
+        app:layout_constraintEnd_toStartOf="@+id/san"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/dian"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="."
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/deng"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/baifenzhi"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="%"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ling"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/ling"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:text="0"
+        android:textSize="80sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dian"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

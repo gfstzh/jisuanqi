@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>二进制</item>
+        <item>八进制</item>
+        <item>十进制</item>
+        <item>十六进制</item>
+    </string-array>
+    <string-array name="lala">
+        <item>长度(米)</item>
+        <item>体积(立方米)</item>
+    </string-array>
+    <string-array name="lala2">
+        <item>米</item>
+        <item>分米</item>
+        <item>厘米</item>
+    </string-array>
+    <string-array name="lala3">
+        <item>立方米</item>
+        <item>立方分米</item>
+        <item>立方厘米</item>
+    </string-array>
+</resources>
